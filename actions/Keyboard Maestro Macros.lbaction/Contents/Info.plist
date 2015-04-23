@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>at.mlinzner.LaunchBar.action.KeyboardMaestro</string>
+	<key>CFBundleName</key>
+	<string>Keyboard Maestro Macros</string>
+	<key>CFBundleIconFile</key>
+	<string>com.stairways.keyboardmaestro.editor</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>LBMinimumLaunchBarVersion</key>
+	<integer>6015</integer>
+	<key>LBRequiredApplication</key>
+	<string>com.stairways.keyboardmaestro.editor</string>
+	<key>LBAssociatedApplication</key>
+	<string>com.stairways.keyboardmaestro.editor</string>
+	<key>LBTextInputTitle</key>
+	<string>Macro Name</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+			<key>LBRunInBackground</key>
+			<false/>
+			<key>LBLiveFeedbackEnabled</key>
+			<false/>
+			<key>LBRequiresArgument</key>
+			<false/>
+			<key>LBReturnsResult</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBSummary</key>
+		<string>This action lists all Keyboard Maestro macros available in the current context to quickly search and execute them with LaunchBar.</string>
+		<key>LBAuthor</key>
+		<string>Manfred Linzner</string>
+		<key>LBTwitter</key>
+		<string>@mlinzner</string>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2014 Manfred Linzner</string>
+</dict>
+</plist>
