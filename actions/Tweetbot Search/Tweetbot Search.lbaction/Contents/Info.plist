@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>at.obdev.LaunchBar.action.TweetbotSearch</string>
+	<key>CFBundleName</key>
+	<string>Search Twitter</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBDebugLogEnabled</key>
+	<false/>
+	<key>CFBundleIconFile</key>
+	<string>com.tapbots.TweetbotMac</string>
+	<key>LBTextInputTitle</key>
+	<string>Search</string>
+	<key>LBAssociatedApplication</key>
+	<string>com.tapbots.TweetbotMac</string>
+	<key>LBRequiredApplication</key>
+	<string>com.tapbots.TweetbotMac</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+	</dict>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBSummary</key>
+		<string>This action allows you to quickly search Twitter using Tweetbot.</string>
+		<key>LBAuthor</key>
+		<string>Manfred Linzner</string>
+		<key>LBWebsite</key>
+		<string>http://www.linzner.net/</string>
+		<key>LBTwitter</key>
+		<string>@mlinzner</string>
+		<key>LBRequirements</key>
+		<string>Requires Tweetbot for Mac.</string>
+		<key>LBArgument</key>
+		<string>The text to search for, if prefixed with an @-sign it looks for user profiles.</string>
+		<key>LBResult</key>
+		<string>Lists search results in Tweebot for Mac.</string>
+	</dict>
+</dict>
+</plist>
