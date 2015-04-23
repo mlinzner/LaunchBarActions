@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>at.mlinzner.LaunchBar.action.SpotifyPreviousSong</string>
+	<key>CFBundleIconFile</key>
+	<string>com.spotify.client</string>
+	<key>CFBundleName</key>
+	<string>Previous Song</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+    <key>LBAbbreviation</key>
+    <string>Spotify</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBScriptName</key>
+			<string>default.scpt</string>
+		</dict>
+	</dict>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBSummary</key>
+		<string>This action plays the previous song of the current list in Spotify.</string>
+		<key>LBAuthor</key>
+		<string>Manfred Linzner</string>
+		<key>LBWebsite</key>
+		<string>http://www.linzner.net/</string>
+		<key>LBTwitter</key>
+		<string>@mlinzner</string>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2014 Manfred Linzner</string>
+</dict>
+</plist>

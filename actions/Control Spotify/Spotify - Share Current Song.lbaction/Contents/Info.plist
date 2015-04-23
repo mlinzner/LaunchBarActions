@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>at.mlinzner.LaunchBar.action.SpotifyShare</string>
+	<key>CFBundleIconFile</key>
+	<string>com.spotify.client</string>
+	<key>CFBundleName</key>
+	<string>Share Current Song</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+    <key>LBAbbreviation</key>
+    <string>Spotify</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+            <key>LBReturnsResult</key>
+            <true/>
+		</dict>
+	</dict>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBSummary</key>
+		<string>This action shares the currently playing Spotify song on Twitter or Facebook.</string>
+		<key>LBAuthor</key>
+		<string>Manfred Linzner</string>
+		<key>LBWebsite</key>
+		<string>http://www.linzner.net/</string>
+		<key>LBTwitter</key>
+		<string>@mlinzner</string>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2014 Manfred Linzner</string>
+</dict>
+</plist>
