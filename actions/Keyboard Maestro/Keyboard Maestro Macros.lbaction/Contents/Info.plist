@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>at.mlinzner.LaunchBar.action.KeyboardMaestro</string>
+	<string>net.linzner.LaunchBar.action.KeyboardMaestro</string>
 	<key>CFBundleName</key>
 	<string>Keyboard Maestro Macros</string>
 	<key>CFBundleIconFile</key>
 	<string>com.stairways.keyboardmaestro.editor</string>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>LBMinimumLaunchBarVersion</key>
 	<integer>6015</integer>
 	<key>LBRequiredApplication</key>
@@ -42,8 +42,16 @@
 		<string>Manfred Linzner</string>
 		<key>LBTwitter</key>
 		<string>@mlinzner</string>
+		<key>LBWebsiteURL</key>
+		<string>https://www.linzner.net/</string>
+		<key>LBUpdateURL</key>
+		<string>https://github.com/mlinzner/LaunchBarActions/raw/master/actions/Keyboard%20Maestro/Keyboard%20Maestro%20Macros.lbaction/Contents/Info.plist</string>
+		<key>LBDownloadURL</key>
+		<string>https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Keyboard%20Maestro/packages/Keyboard%20Maestro%20Macros.lbaction?raw=true</string>
+		<key>LBChangelog</key>
+		<string>Added support for Update Checks.</string>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2014 Manfred Linzner</string>
+	<string>Copyright © 2015 Manfred Linzner</string>
 </dict>
 </plist>

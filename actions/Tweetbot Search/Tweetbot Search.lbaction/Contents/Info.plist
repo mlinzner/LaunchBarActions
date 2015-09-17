@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>at.obdev.LaunchBar.action.TweetbotSearch</string>
+	<string>net.linzner.LaunchBar.action.TweetbotSearch</string>
 	<key>CFBundleName</key>
 	<string>Search Twitter</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>LBDebugLogEnabled</key>
 	<false/>
 	<key>CFBundleIconFile</key>
@@ -38,8 +38,14 @@
 		<string>This action allows you to quickly search Twitter using Tweetbot.</string>
 		<key>LBAuthor</key>
 		<string>Manfred Linzner</string>
-		<key>LBWebsite</key>
-		<string>http://www.linzner.net/</string>
+		<key>LBWebsiteURL</key>
+		<string>https://www.linzner.net/</string>
+		<key>LBUpdateURL</key>
+		<string>https://raw.githubusercontent.com/mlinzner/LaunchBarActions/master/actions/Tweetbot%20Search/Tweetbot%20Search.lbaction/Contents/Info.plist</string>
+		<key>LBDownloadURL</key>
+		<string>https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Tweetbot%20Search/packages/Tweetbot%20Search.lbaction?raw=true</string>
+		<key>LBChangelog</key>
+		<string>Added support for Update Checks.</string>        
 		<key>LBTwitter</key>
 		<string>@mlinzner</string>
 		<key>LBRequirements</key>
@@ -49,5 +55,7 @@
 		<key>LBResult</key>
 		<string>Lists search results in Tweebot for Mac.</string>
 	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2015 Manfred Linzner</string>
 </dict>
 </plist>

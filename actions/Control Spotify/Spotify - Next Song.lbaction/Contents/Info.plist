@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>at.mlinzner.LaunchBar.action.SpotifyNextSong</string>
+	<string>net.linzner.LaunchBar.action.SpotifyNextSong</string>
 	<key>CFBundleIconFile</key>
 	<string>com.spotify.client</string>
 	<key>CFBundleName</key>
 	<string>Next Song</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
     <key>LBAbbreviation</key>
     <string>Spotify</string>
 	<key>LBScripts</key>
@@ -26,12 +26,18 @@
 		<string>This action plays the next song of the current list in Spotify.</string>
 		<key>LBAuthor</key>
 		<string>Manfred Linzner</string>
-		<key>LBWebsite</key>
-		<string>http://www.linzner.net/</string>
+		<key>LBWebsiteURL</key>
+		<string>https://www.linzner.net/</string>
+		<key>LBUpdateURL</key>
+		<string>https://github.com/mlinzner/LaunchBarActions/raw/master/actions/Control%20Spotify/Spotify%20-%20Next%20Song.lbaction/Contents/Info.plist</string>
+		<key>LBDownloadURL</key>
+		<string>https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Control%20Spotify/packages/Spotify%20-%20Next%20Song.lbaction?raw=true</string>
+		<key>LBChangelog</key>
+		<string>Added support for Update Checks.</string>        
 		<key>LBTwitter</key>
 		<string>@mlinzner</string>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2014 Manfred Linzner</string>
+	<string>Copyright © 2015 Manfred Linzner</string>
 </dict>
 </plist>

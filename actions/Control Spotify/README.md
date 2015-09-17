@@ -9,6 +9,4 @@ A set of Spotify Actions meant as a replacement for the built-in iTunes actions.
 - Toggle Shuffle – [Download](https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Control%20Spotify/packages/Spotify%20-%20Toggle%20Shuffle.lbaction?raw=true)
 - Share Current Song (Twitter or Facebook) – [Download](https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Control%20Spotify/packages/Spotify%20-%20Share%20Current%20Song.lbaction?raw=true)
 
-Or [download](https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Control%20Spotify/packages/Spotify%20Action%20Set.lbext?raw=true) all actions in a set.
-
 If you are a Spotify user, make sure to take a look at [nosrac's search action](https://github.com/Nosrac/LBSpotify) as well!
