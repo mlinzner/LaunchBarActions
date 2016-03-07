@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>com.stclairsoft.DefaultFolderX5</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.linzner.LaunchBar.action.DefaultFolderXFiles</string>
+	<key>CFBundleName</key>
+	<string>Default Folder X Files</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+	<key>LBAssociatedApplication</key>
+	<string>com.stclairsoft.DefaultFolderX5</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBSummary</key>
+		<string>This action enables browsing for Default Folder X and allows to quickly access Default Folder X favorites, recent files and folders.</string>
+        <key>LBResult</key>
+        <string>Default Folder X Favorites, Recent Files and Folders</string>
+		<key>LBAuthor</key>
+		<string>Manfred Linzner</string>
+		<key>LBTwitter</key>
+		<string>@mlinzner</string>
+		<key>LBWebsiteURL</key>
+		<string>https://linzner.net</string>
+		<key>LBUpdateURL</key>
+		<string>https://github.com/mlinzner/LaunchBarActions/raw/master/actions/Default%20Folder%20X%20Files/Default%20Folder%20X%20Files.lbaction/Contents/Info.plist</string>
+		<key>LBDownloadURL</key>
+		<string>https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Default%20Folder%20X%20Files/packages/Default%20Folder%20X%20Files.lbaction?raw=true</string>
+		<key>LBChangelog</key>
+		<string></string>
+	</dict>
+	<key>LBRequiredApplication</key>
+	<string>com.stclairsoft.DefaultFolderX5</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2016 Manfred Linzner</string>
+</dict>
+</plist>
