@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>com.soulmen.ulysses3</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.linzner.LaunchBar.action.UlyssesFiles</string>
+	<key>CFBundleName</key>
+	<string>Ulysses Files</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBAssociatedApplication</key>
+	<string>com.soulmen.ulysses3</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Manfred Linzner</string>
+		<key>LBEmail</key>
+		<string></string>
+		<key>LBResult</key>
+		<string>Browseable Ulysses Groups and Sheets</string>
+		<key>LBSummary</key>
+		<string>Enables browsing for Ulysses and adds a quick and easy way to navigate and open groups and sheets.</string>
+		<key>LBUpdateURL</key>
+		<string>https://github.com/mlinzner/LaunchBarActions/raw/master/actions/Ulysses%20Files/Ulysses%20Files.lbaction/Contents/Info.plist</string>
+		<key>LBDownloadURL</key>
+		<string>https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Ulysses%20Files/packages/Ulysses%20Files.lbaction?raw=true</string>
+		<key>LBChangelog</key>
+		<string></string>
+	</dict>
+	<key>LBRequiredApplication</key>
+	<string>com.soulmen.ulysses3</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2016 Manfred Linzner</string>
+</dict>
+</plist>
