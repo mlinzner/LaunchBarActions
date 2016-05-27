@@ -9,13 +9,15 @@
 	<key>CFBundleName</key>
 	<string>Ulysses Files</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>LBAssociatedApplication</key>
 	<string>com.soulmen.ulysses3</string>
 	<key>LBDescription</key>
 	<dict>
 		<key>LBAuthor</key>
 		<string>Manfred Linzner</string>
+		<key>LBTwitter</key>
+		<string>@mlinzner</string>        
 		<key>LBEmail</key>
 		<string></string>
 		<key>LBResult</key>
@@ -27,7 +29,7 @@
 		<key>LBDownloadURL</key>
 		<string>https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Ulysses%20Files/packages/Ulysses%20Files.lbaction?raw=true</string>
 		<key>LBChangelog</key>
-		<string></string>
+		<string>Improved Icons (thanks to Friedrich from Soulmen!).</string>
 	</dict>
 	<key>LBRequiredApplication</key>
 	<string>com.soulmen.ulysses3</string>

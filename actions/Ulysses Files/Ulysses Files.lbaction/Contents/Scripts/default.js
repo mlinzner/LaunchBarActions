@@ -66,7 +66,7 @@ function readFolder(path) {
                                  actionArgument: groupPath, 
                                  actionReturnsItems: true, 
                                  subtitle : subtitle,
-                                 icon   : 'group.png',
+                                 icon   : 'group.icns',
                                  iconIsTemplate: false});
                 } catch (error) {
                     LaunchBar.log('Unable to read Ulysses Group Info: ' + error); 
@@ -83,7 +83,7 @@ function readFolder(path) {
                 output.push({title    : title, 
                              action   : 'open', 
                              actionArgument : sheetPath,  
-                             icon     : 'sheet.png', 
+                             icon     : 'sheet.icns', 
                              subtitle : subtitle,
                              iconIsTemplate: false}); 
             }
