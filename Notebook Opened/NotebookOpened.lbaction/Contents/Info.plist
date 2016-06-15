@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>font-awesome:laptop</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.linzner.LaunchBar.action.NotebookOpened</string>
+	<key>CFBundleName</key>
+	<string>Notebook Openend</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Manfred Linzner</string>
+		<key>LBEmail</key>
+		<string></string>
+		<key>LBResult</key>
+		<string>Lists “LidOpen” events as provided by pmset.</string>
+		<key>LBSummary</key>
+		<string>Have you ever forgot to start your work timer? LidOpen events on notebooks are probably a good indicator for when you started to work.</string>
+		<key>LBTwitter</key>
+		<string>@mlinzner</string>
+		<key>LBWebsiteURL</key>
+		<string>https://linzner.net</string>
+		<key>LBUpdateURL</key>
+		<string>https://raw.githubusercontent.com/mlinzner/LaunchBarActions/master/actions/Notebook%20Opened/NotebookOpenend.lbaction/Contents/Info.plist</string>
+		<key>LBDownloadURL</key>
+		<string>https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Notebook%20Opened/NotebookOpenend.lbaction?raw=true</string>
+		<key>LBChangelog</key>
+		<string>Initial Release.</string>        
+	</dict>
+	<key>LBResult</key>
+	<string>Lists “LidOpen” events as provided by pmset.</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2016 Manfred Linzner</string>
+</dict>
+</plist>
