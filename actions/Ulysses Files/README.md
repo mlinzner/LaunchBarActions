@@ -6,5 +6,4 @@
 
 Conveniently browse or open (⇧↩) your Ulysses groups and sheets with LaunchBar. 
 
-[~Download Action~]()
 **Starting with LaunchBar 6.7 this action is bundle. It is no longer necessary to install it manually.**
