@@ -7,5 +7,6 @@ Repository for my LaunchBar Actions. Currently available:
 - Spotify Controller Actions
 - Default Folder X Files
 - Ulysses Files
+- Notebook Opened
 
 All action are properly signed and support update checks via [Padraic’s](http://prenagha.github.io/launchbar/updates.html) LaunchBar Action.
