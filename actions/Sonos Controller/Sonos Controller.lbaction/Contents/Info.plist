@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>net.linzner.LaunchBar.action.SonosController</string>
+	<key>CFBundleName</key>
+	<string>Sonos Controller</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBAssociatedApplication</key>
+	<string>com.sonos.macController</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Manfred Linzner</string>
+		<key>LBEmail</key>
+		<string></string>
+		<key>LBSummary</key>
+		<string>Control your Sonos System with LaunchBar. Hat Tip to @jasonrudolph (https://github.com/jasonrudolph/launchbar-sonos-actions) for the inspiration and the fabolous SoCo project (https://github.com/SoCo/SoCo) for much of the groundwork.</string>
+		<key>LBTwitter</key>
+		<string>@mlinzner</string>
+		<key>LBWebsiteURL</key>
+		<string>https://linzner.net</string>
+        <key>LBUpdateURL</key>
+		<string>https://github.com/mlinzner/LaunchBarActions/raw/master/actions/Sonos%20Controller/Sonos%20Controller.lbaction/Contents/Info.plist</string>
+		<key>LBDownloadURL</key>
+		<string>https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Sonos%20Controller/Sonos%20Controller.lbaction?raw=true</string>
+		<key>LBChangelog</key>
+		<string>Initial Release</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.py</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2018 Manfred Linzner</string>
+</dict>
+</plist>
