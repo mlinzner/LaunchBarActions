@@ -1,6 +1,6 @@
 # Sonos Controller
 
-![Action Sample Usage](https://raw.githubusercontent.com/mlinzner/LaunchBarActions/master/resources/LBAction-Sonos.jpg)
+![Action Sample Usage](https://raw.githubusercontent.com/mlinzner/LaunchBarActions/master/resources/LBAction-Sonos.png)
 
 Action set to control one or more Sonos Zones of choice. Currently supports Play/Pause, Next/Previous Track, Increase/Decrease Volume and Mute.
 This action interact with Sonos directly via the fabulous [SoCo project](https://github.com/SoCo/SoCo). This action does not require the Sonos for Mac application nor relies on UI Scripting. Hat tip to @jasonrudolph for the inspiration!
