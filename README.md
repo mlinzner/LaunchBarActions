@@ -2,6 +2,7 @@
 
 Repository for my LaunchBar Actions. Currently available:
 
+- [Convert to JPG](https://github.com/mlinzner/LaunchBarActions/tree/master/actions/Convert%20to%20JPG)
 - [Search Twitter using Tweetbot](https://github.com/mlinzner/LaunchBarActions/tree/master/actions/Tweetbot%20Search)
 - [Trigger Keyboard Maestro Macros](https://github.com/mlinzner/LaunchBarActions/tree/master/actions/Keyboard%20Maestro)
 - [Spotify Controller Actions](https://github.com/mlinzner/LaunchBarActions/tree/master/actions/Control%20Spotify)
