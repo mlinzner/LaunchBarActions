@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>font-awesome:fa-picture-o</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.linzner.LaunchBar.action.ConvertToJPG</string>
+	<key>CFBundleName</key>
+	<string>Convert to JPG</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBArgument</key>
+	<string>One or more file paths referencing an image.</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBArgument</key>
+		<string>One or more file paths referencing an image.</string>
+		<key>LBAuthor</key>
+		<string>Manfred Linzner-Scherf</string>
+		<key>LBEmail</key>
+		<string>hi@upstart-it.nl</string>
+		<key>LBResult</key>
+		<string>One or more converted files.</string>
+		<key>LBSummary</key>
+		<string>This action converts one or more images to JPG.</string>
+		<key>LBTwitter</key>
+		<string>@mlinzner</string>
+		<key>LBWebsiteURL</key>
+		<string>https://www.upstart-it.nl</string>
+		<key>LBUpdateURL</key>
+		<string>https://github.com/mlinzner/LaunchBarActions/raw/master/actions/Convert%20to%20JPG/ConvertToJPG.lbaction/Contents/Info.plist</string>
+		<key>LBDownloadURL</key>
+		<string>https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Convert%20to%20JPG/ConvertToJPG.lbaction?raw=true</string>
+		<key>LBChangelog</key>
+		<string>Initial Release</string>
+	</dict>
+	<key>LBResult</key>
+	<string>One or more converted files.</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>path</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>paths</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.sh</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2021 Manfred Linzner-Scherf</string>
+</dict>
+</plist>
