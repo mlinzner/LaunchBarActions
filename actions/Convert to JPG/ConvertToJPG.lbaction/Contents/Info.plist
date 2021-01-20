@@ -31,7 +31,7 @@
 		<key>LBUpdateURL</key>
 		<string>https://github.com/mlinzner/LaunchBarActions/raw/master/actions/Convert%20to%20JPG/ConvertToJPG.lbaction/Contents/Info.plist</string>
 		<key>LBDownloadURL</key>
-		<string>https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Convert%20to%20JPG/ConvertToJPG.lbaction?raw=true</string>
+		<string>https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Convert%20to%20JPG/packages/ConvertToJPG.lbaction?raw=true</string>
 		<key>LBChangelog</key>
 		<string>Initial Release</string>
 	</dict>
