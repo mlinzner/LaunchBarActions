@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 # LaunchBar Action Script
 #
@@ -7,6 +7,7 @@ import os
 import json
 sys.path.append('../lib')
 import soco
+from pathlib import Path
 
 def load_zone_info():
     # When CMD key was pressed, we do not read setting and let the user
@@ -16,8 +17,9 @@ def load_zone_info():
 
     # If not, we attempt to read setting file to retrieve zone ip_address
     try:
-        settings_file_path = os.path.join(os.getenv('LB_SUPPORT_PATH'), 'settings.json')
-        settings = json.load(file(settings_file_path))
+
+        settings_file_path = Path(os.path.join(os.getenv('LB_SUPPORT_PATH'), 'settings.json'))
+        settings = json.loads(settings_file_path.read_bytes())
         sonos_zone = settings['zone_ip_address']
         return sonos_zone
     except:
@@ -90,4 +92,4 @@ else:
                            action='mute',
                            zone=sonos_zone))
 
-print json.dumps(items)
+print(json.dumps(items))

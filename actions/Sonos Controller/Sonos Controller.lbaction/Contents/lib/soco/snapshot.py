@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 # pylint: disable=too-many-instance-attributes
 
+# Disable while we have Python 2.x compatability
+# pylint: disable=useless-object-inheritance
+
 """Functionality to support saving and restoring the current Sonos state.
 
 This is useful for scenarios such as when you want to switch to radio
@@ -86,15 +89,15 @@ class Snapshot(object):
 
         Returns:
             bool: `True` if the device is a coordinator, `False` otherwise.
-                Useful for determining whether playing an alert on a device
-                will ungroup it.
+            Useful for determining whether playing an alert on a device
+            will ungroup it.
         """
         # get if device coordinator (or slave) True (or False)
         self.is_coordinator = self.device.is_coordinator
 
         # Get information about the currently playing media
-        media_info = self.device.avTransport.GetMediaInfo([('InstanceID', 0)])
-        self.media_uri = media_info['CurrentURI']
+        media_info = self.device.avTransport.GetMediaInfo([("InstanceID", 0)])
+        self.media_uri = media_info["CurrentURI"]
         # Extract source from media uri - below some media URI value examples:
         #  'x-rincon-queue:RINCON_000E5859E49601400#0'
         #       - playing a local queue always #0 for local queue)
@@ -105,11 +108,11 @@ class Snapshot(object):
         #  -'x-rincon:RINCON_000E5859E49601400'
         #       - a slave player pointing to coordinator player
 
-        if self.media_uri.split(':')[0] == 'x-rincon-queue':
+        if self.media_uri.split(":")[0] == "x-rincon-queue":
             # The pylint error below is a false positive, see about removing it
             # in the future
             # pylint: disable=simplifiable-if-statement
-            if self.media_uri.split('#')[1] == '0':
+            if self.media_uri.split("#")[1] == "0":
                 # playing local queue
                 self.is_playing_queue = True
             else:
@@ -132,21 +135,20 @@ class Snapshot(object):
             # Get information about the currently playing track
             track_info = self.device.get_current_track_info()
             if track_info is not None:
-                position = track_info['playlist_position']
+                position = track_info["playlist_position"]
                 if position != "":
                     # save as integer
                     self.playlist_position = int(position)
-                self.track_position = track_info['position']
+                self.track_position = track_info["position"]
         else:
             # playing from a stream - save media metadata
-            self.media_metadata = media_info['CurrentURIMetaData']
+            self.media_metadata = media_info["CurrentURIMetaData"]
 
         # Work out what the playing state is - if a coordinator
         if self.is_coordinator:
             transport_info = self.device.get_current_transport_info()
             if transport_info is not None:
-                self.transport_state = transport_info[
-                    'current_transport_state']
+                self.transport_state = transport_info["current_transport_state"]
 
         # Save of the current queue if we need to
         self._save_queue()
@@ -172,7 +174,7 @@ class Snapshot(object):
             # include things like audio
             transport_info = self.device.get_current_transport_info()
             if transport_info is not None:
-                if transport_info['current_transport_state'] == 'PLAYING':
+                if transport_info["current_transport_state"] == "PLAYING":
                     self.device.pause()
 
             # Check if the queue should be restored
@@ -210,14 +212,11 @@ class Snapshot(object):
                 # reinstate uri and meta data
                 if self.media_uri != "":
                     self.device.play_uri(
-                        self.media_uri, self.media_metadata, start=False)
+                        self.media_uri, self.media_metadata, start=False
+                    )
 
         # For all devices:
-        # Reinstate all the properties that are pretty easy to do
         self.device.mute = self.mute
-        self.device.bass = self.bass
-        self.device.treble = self.treble
-        self.device.loudness = self.loudness
 
         # Reinstate volume
         # Can only change volume on device with fixed volume set to False
@@ -225,13 +224,16 @@ class Snapshot(object):
         # command to check, fixed volume always has volume set to 100.
         # So only checked fixed volume if volume is 100.
         if self.volume == 100:
-            fixed_vol = self.device.renderingControl.GetOutputFixed(
-                [('InstanceID', 0)])['CurrentFixed']
+            fixed_vol = self.device.fixed_volume
         else:
             fixed_vol = False
 
         # now set volume if not fixed
         if not fixed_vol:
+            self.device.bass = self.bass
+            self.device.treble = self.treble
+            self.device.loudness = self.loudness
+
             if fade:
                 # if fade requested in restore
                 # set volume to 0 then fade up to saved volume (non blocking)
@@ -244,9 +246,9 @@ class Snapshot(object):
         # Now everything is set, see if we need to be playing, stopped
         # or paused ( only for coordinators)
         if self.is_coordinator:
-            if self.transport_state == 'PLAYING':
+            if self.transport_state == "PLAYING":
                 self.device.play()
-            elif self.transport_state == 'STOPPED':
+            elif self.transport_state == "STOPPED":
                 self.device.stop()
 
     def _save_queue(self):
@@ -286,3 +288,10 @@ class Snapshot(object):
             for queue_group in self.queue:
                 for queue_item in queue_group:
                     self.device.add_uri_to_queue(queue_item.uri)
+
+    def __enter__(self):
+        self.snapshot()
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.restore()

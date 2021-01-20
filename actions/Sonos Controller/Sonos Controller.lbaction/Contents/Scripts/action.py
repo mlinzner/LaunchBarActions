@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 # LaunchBar Action Script
 #
@@ -27,7 +27,7 @@ if len(sys.argv) > 1:
             elif playback_state == 'PLAYING':
                 sonos.pause()
         except SoCoUPnPException as e:
-            print '[{"icon": "font-awesome:times-circle", "title": "Not supported by current zone."}]'
+            print('[{"icon": "font-awesome:times-circle", "title": "Not supported by current zone."}]')
 
     elif action == 'v+5':
         # Increase volume
@@ -54,14 +54,14 @@ if len(sys.argv) > 1:
         try:
             sonos.next()
         except SoCoUPnPException:
-            print '[{"icon": "font-awesome:times-circle", "title": "Not supported for current playback source."}]'
+            print('[{"icon": "font-awesome:times-circle", "title": "Not supported for current playback source."}]')
 
     elif action == 'prev':
         # Previous Song (might be unsupported by playback source e.g. streams)
         try:
             sonos.previous()
         except SoCoUPnPException:
-            print '[{"icon": "font-awesome:times-circle", "title": "Not supported for current playback source."}]'
+            print('[{"icon": "font-awesome:times-circle", "title": "Not supported for current playback source."}]')
 
     elif action == 'set_zone':
         # Used during setup to save preferred zone

@@ -7,27 +7,27 @@
 	<key>CFBundleName</key>
 	<string>Sonos Controller</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>2.0</string>
 	<key>LBAssociatedApplication</key>
-	<string>com.sonos.macController</string>
+	<string>com.sonos.macController2</string>
 	<key>LBDescription</key>
 	<dict>
 		<key>LBAuthor</key>
-		<string>Manfred Linzner</string>
+		<string>Manfred Linzner-Scherf</string>
 		<key>LBEmail</key>
-		<string></string>
+		<string>hi@upstart-it.nl</string>
 		<key>LBSummary</key>
 		<string>Control your Sonos System with LaunchBar. Hat Tip to @jasonrudolph (https://github.com/jasonrudolph/launchbar-sonos-actions) for the inspiration and the fabolous SoCo project (https://github.com/SoCo/SoCo) for much of the groundwork.</string>
 		<key>LBTwitter</key>
 		<string>@mlinzner</string>
 		<key>LBWebsiteURL</key>
-		<string>https://linzner.net</string>
+		<string>https://www.upstart-it.nl</string>
         <key>LBUpdateURL</key>
 		<string>https://github.com/mlinzner/LaunchBarActions/raw/master/actions/Sonos%20Controller/Sonos%20Controller.lbaction/Contents/Info.plist</string>
 		<key>LBDownloadURL</key>
 		<string>https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Sonos%20Controller/Sonos%20Controller.lbaction?raw=true</string>
 		<key>LBChangelog</key>
-		<string>Initial Release</string>
+		<string>Update to Python 3. Added support for new Sonos app.</string>
 	</dict>
 	<key>LBScripts</key>
 	<dict>
@@ -44,6 +44,6 @@
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2018 Manfred Linzner</string>
+	<string>Copyright © 2021 Manfred Linzner-Scherf</string>
 </dict>
 </plist>
