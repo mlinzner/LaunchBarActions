@@ -25,9 +25,9 @@
 		<key>LBWebsiteURL</key>
 		<string>https://www.upstart-it.nl</string>
 		<key>LBUpdateURL</key>
-		<string>https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Recent%202FA%20Codes.lbaction/Contents/Info.plist</string>
+		<string>https://github.com/mlinzner/LaunchBarActions/tree/master/actions/Recent%202FA%20Codes/Recent%202FA%20Codes.lbaction/Contents/Info.plist</string>
 		<key>LBDownloadURL</key>
-		<string>https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Recent%202FA%20Codes.lbaction?raw=true</string>
+		<string>https://github.com/mlinzner/LaunchBarActions/tree/master/actions/Recent%202FA%20Codes/packages/Recent%202FA%20Codes.lbaction?raw=true</string>
 		<key>LBChangelog</key>
 		<string>Initial Release</string>
 	</dict>

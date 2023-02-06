@@ -11,5 +11,6 @@ Repository for my LaunchBar Actions. Currently available:
 - [Notebook Opened](https://github.com/mlinzner/LaunchBarActions/tree/master/actions/Notebook%20Opened)
 - [Connect / Disconnect AirPods](https://github.com/mlinzner/LaunchBarActions/tree/master/actions/AirPods)
 - [Sonos Controller](https://github.com/mlinzner/LaunchBarActions/tree/master/actions/Sonos%20Controller)
+- [Recent 2FA Codes](https://github.com/mlinzner/LaunchBarActions/tree/master/actions/Recent%202FA%20Codes)
 
 All actions support update checks via [Padraic’s](http://prenagha.github.io/launchbar/updates.html) LaunchBar Action.
