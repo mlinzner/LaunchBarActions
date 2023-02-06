@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>com.apple.MobileSMS</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.linzner.LaunchBar.action.2FACodes</string>
+	<key>CFBundleName</key>
+	<string>Recent 2FA Codes</string>
+	<key>LBAssociatedApplication</key>
+	<string>com.apple.MobileSMS</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Manfred Linzner-Scherf</string>
+		<key>LBEmail</key>
+		<string>hi@upstart-it.nl</string>
+		<key>LBResult</key>
+		<string>A list of recently received 2FA Codes.</string>
+		<key>LBSummary</key>
+		<string>Retrieve and quickly use 2FA codes received via SMS.</string>
+		<key>LBTwitter</key>
+		<string>@mlinzner</string>
+		<key>LBWebsiteURL</key>
+		<string>https://www.upstart-it.nl</string>
+		<key>LBUpdateURL</key>
+		<string>https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Recent%202FA%20Codes.lbaction/Contents/Info.plist</string>
+		<key>LBDownloadURL</key>
+		<string>https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Recent%202FA%20Codes.lbaction?raw=true</string>
+		<key>LBChangelog</key>
+		<string>Initial Release</string>
+	</dict>
+	<key>LBRequiredApplication</key>
+	<string>com.apple.MobileSMS</string>
+	<key>LBResult</key>
+	<string>A list of recently received 2FA Codes.</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>Recently received 2FA codes.</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.py</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2023 Manfred Linzner-Scherf</string>
+</dict>
+</plist>
