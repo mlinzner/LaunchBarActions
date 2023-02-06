@@ -11,7 +11,7 @@ Codes are returned as text, so all standard text features of LaunchBar will work
 * ⇧↩ to insert the code in the front-most window
 * ⇥ to send it to a different app or item inside LaunchBar.
 
-[Download Action](https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Recent%202FA%20Codes.lbaction?raw=true)
+[Download Action](https://github.com/mlinzner/LaunchBarActions/blob/master/actions/Recent%202FA%20Codes/packages/Recent%202FA%20Codes.lbaction?raw=true)
 
 **Dependencies & Requirements:**
 - Make sure you are receiving SMS message in iMessage. You probably need to have an iPhone next by and SMS forwarding turned on.
